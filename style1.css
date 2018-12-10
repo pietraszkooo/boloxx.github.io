@@ -1,0 +1,157 @@
+@import url("reset.css");
+body{
+    background-color: 	#FFFfff;
+}
+#menu{
+    color:#000000;
+    font-size:300%;
+    width:100%;
+    height:35%;
+    background-color:#ffffff;
+    margin:1%;
+}
+
+#top{
+    text-align:right;
+    font-family: Arial;
+    display: block;
+    width:100%;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+a:link {
+    margin:1%;
+    font-size:130%;
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+}
+.typers:hover{
+    opacity:0.45;
+}
+.one{
+    width:100%;
+    height:85%;
+}
+.logo{
+    position:absolute;
+    left:0px;
+    right:0px;
+    width:2%;
+    height:100%;
+}
+.logo:hover {
+    opacity: 0.8;
+}
+#logo img {
+    width: 100%;
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    background-image: url("two.jpg");
+}
+.parallax img{
+    width:30%;
+    height:35%;
+    margin-top:10%;
+    margin-left:33%;
+}
+h1{
+    margin-left:38%;
+    font-size:200%;
+    font-family: Arial;
+    font-weight: bold;
+    color:white;
+}
+#main{
+    height:50%;
+    width:50%;
+    text-align: center;
+    font-family: arial;
+    padding-top:6%;
+    padding-left:25%;
+    padding-right: 25%;
+    background-color:	#FFFFFf;
+    border-bottom: 1px solid #000000;
+}
+#about{
+    text-align: center;
+    padding-top:6%;
+    background-color:#FFFFFf;
+    border-bottom: 1px solid #000000;
+}
+#about img {
+    margin: 1%;
+}
+.kafle:hover{
+    opacity: 0.8;
+    -webkit-box-shadow: 0px 0px 62px -10px rgba(92,86,92,1);
+    -moz-box-shadow: 0px 0px 62px -10px rgba(92,86,92,1);
+    box-shadow: 0px 0px 62px -10px rgba(92,86,92,1);
+}
+#contact{
+    margin-left:35%;
+    margin-top:10%;
+}
+input{
+    -webkit-box-shadow: 15px 18px 98px -21px rgba(0,0,0,0.47);
+    -moz-box-shadow: 15px 18px 98px -21px rgba(0,0,0,0.47);
+    box-shadow: 15px 18px 98px -21px rgba(0,0,0,0.47);
+    width:40%;
+    outline:none;
+    border: 2px solid grey;
+    padding:1%;
+}
+
+form input, textarea{
+    font-family: arial;
+    font-size: 15px;
+    padding:1%;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: #494949;
+    display: inline-block;
+}
+
+form input:first-child{
+   width:40%;
+   margin:1%;
+}
+
+form input {
+    width:40%;
+    margin:1%;
+}
+
+form textarea {
+    width:40%;
+    resize: none;
+    margin:1%;
+}
+
+.input_text {
+    color: #494949;
+    width:40%;
+}
+
+.button {
+    background-color: #f0f0f0;
+    color: #494949;
+}
+
+.button:hover{
+     background-color: #494949;
+    color: #f0f0f0;
+}
